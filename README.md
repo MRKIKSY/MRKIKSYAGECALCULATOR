@@ -1,6 +1,6 @@
-# MRKIKSYAGECALCULATOR
-This simple html, css and js files was created with VANILLA JAVASCRIPT.  Its a simple age calculator 
-The Javascript file simply does the essentially calculates a person's age based on their birthday input and displays it on the webpage when a button is clicked.
+
+Certainly, let's break down the provided code line by line:
+
 const btnEl = document.getElementById("btn");
 
 This line declares a constant named btnEl and assigns it the value of the HTML element with the ID "btn". It uses the getElementById method of the document object to select the HTML element.
@@ -70,3 +70,4 @@ This line ends the getAge function.
 btnEl.addEventListener("click", calculateAge);
 
 This line adds an event listener to the btnEl element, listening for a "click" event. When clicked, it will execute the calculateAge function.
+This code essentially calculates a person's age based on their birthday input and displays it on the webpage when a button is clicked.
